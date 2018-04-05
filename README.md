@@ -1,5 +1,7 @@
 # createRef
 
+[![Build Status](https://travis-ci.org/mnorrish/createRef.svg?branch=master)](https://travis-ci.org/mnorrish/createRef)
+
 A `React.createRef` emulation for React < 16.3
 
 ### Installation
