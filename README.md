@@ -4,7 +4,7 @@ A `React.createRef` emulation for React < 16.3
 
 ### Installation
 
-`npm i --save createRef`
+`npm i --save createref`
 
 ### Usage
 
@@ -16,7 +16,7 @@ in the official React documentation for further details.
 
 ```javascript
 import React from 'react';
-import createRef from 'createRef';
+import createRef from 'createref';
 
 class MyComponent extends React.Component {
   contructor() {
