@@ -7,3 +7,9 @@ before_script:
 - npm test
 script:
 - npm run build
+deploy:
+  provider: npm
+  email: matt@mnorrish.co.nz
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
