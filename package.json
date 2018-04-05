@@ -11,6 +11,7 @@
   "keywords": [
     "React"
   ],
+  "repository": "https://github.com/mnorrish/createRef",
   "author": "Matthew Norrish <matt@mnorrish.co.nz> (https://github.com/mnorrish)",
   "license": "MIT",
   "devDependencies": {
