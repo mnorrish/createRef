@@ -1,6 +1,6 @@
 {
   "name": "createref",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "A React.createRef emulation for React < 16.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
