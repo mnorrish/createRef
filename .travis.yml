@@ -13,7 +13,7 @@ deploy:
   provider: npm
   email: matt@mnorrish.co.nz
   api_key: $NPM_TOKEN
+  skip_cleanup: true
   on:
     tags: true
     branch: master
-    skip_cleanup: true
