@@ -23,18 +23,5 @@
     "react-dom": "^16.3.1",
     "react-testing-library": "^2.0.0",
     "typescript": "^2.8.1"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/jestTypeScriptPreprocessor.js"
-    },
-    "testMatch": [
-      "**/__tests__/*.+(ts|tsx|js)"
-    ]
   }
 }
