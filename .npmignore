@@ -1,1 +1,6 @@
 examples
+src
+jest.config.js
+jestTypeScriptPreprocessor.js
+tsconfig.json
+.travis.yml
