@@ -1,6 +1,7 @@
 # createRef
 
 [![Build Status](https://travis-ci.org/mnorrish/createRef.svg?branch=master)](https://travis-ci.org/mnorrish/createRef)
+[![npm version](https://badge.fury.io/js/createref.svg)](https://badge.fury.io/js/createref)
 
 A `React.createRef` emulation for React < 16.3
 
