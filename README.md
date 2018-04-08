@@ -36,3 +36,5 @@ class MyComponent extends React.Component {
   }
 }
 ```
+
+[See the examples directory for more](examples)
