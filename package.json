@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rm -rf ./dist; npm run lint && tsc -d --outDir ./dist",
     "test": "jest",
-    "format": "prettier --write ./**/*",
+    "format": "prettier --write \"./*.{js,json}\"; prettier --write \"./**/*.{ts,tsx}\"",
     "lint": "tslint ./src/**/*"
   },
   "keywords": [
