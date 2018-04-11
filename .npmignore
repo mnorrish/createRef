@@ -4,3 +4,5 @@ jest.config.js
 jestTypeScriptPreprocessor.js
 tsconfig.json
 .travis.yml
+.prettierignore
+.prettierrc.json
