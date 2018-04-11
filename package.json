@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./dist; tsc -d --outDir ./dist",
+    "build": "rm -rf ./dist; npm run lint && tsc -d --outDir ./dist",
     "test": "jest",
     "format": "prettier --write ./**/*",
     "lint": "tslint ./src/**/*"
