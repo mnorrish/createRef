@@ -10,7 +10,7 @@
   "author": "Matthew Norrish <matt@mnorrish.co.nz> (https://github.com/mnorrish)",
   "license": "MIT",
   "dependencies": {
-    "createref": "^0.3.1",
+    "createref": "latest",
     "react": "^16.3.1"
   },
   "devDependencies": {
