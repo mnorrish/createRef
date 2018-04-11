@@ -22,7 +22,7 @@ import React from 'react';
 import createRef from 'createref';
 
 class MyComponent extends React.Component {
-  contructor() {
+  contructor(props) {
     super(props);
     this.myRef = createRef();
   }
