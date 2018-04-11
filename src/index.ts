@@ -17,7 +17,7 @@ export interface Ref<E extends RefElement> {
 
 export default function createRef<E extends RefElement>() {
   const ref = function(refElement: E | null = null) {
-      ref.current = refElement;
+    ref.current = refElement;
   } as Ref<E | null>;
 
   ref.current = null;

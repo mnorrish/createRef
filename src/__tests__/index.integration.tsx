@@ -8,7 +8,7 @@ test('correctly assigns ref.current for rendered HTML element', () => {
   class A extends React.Component {
     myRef = ref;
     render() {
-      return <div data-testid='x' ref={this.myRef} />;
+      return <div data-testid="x" ref={this.myRef} />;
     }
   }
 
@@ -28,10 +28,12 @@ test('correctly assigns ref.current for rendered component', () => {
 
   class B extends React.Component {
     myRef = ref;
-    render() { return <A ref={this.myRef} /> }
+    render() {
+      return <A ref={this.myRef} />;
+    }
   }
 
-  const {container} = render(<B />);
+  const { container } = render(<B />);
 
   expect(ref.current).toEqual(expect.any(A));
 });

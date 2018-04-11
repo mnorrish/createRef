@@ -15,19 +15,21 @@ describe('createRef', () => {
 
   describe('returned function', () => {
     it('sets the given div element to the current property', () => {
-        const ref = createRef<HTMLDivElement>();
-        const a = document.createElement('div');
+      const ref = createRef<HTMLDivElement>();
+      const a = document.createElement('div');
 
-        ref(a);
-        expect(ref.current).toBe(a);
+      ref(a);
+      expect(ref.current).toBe(a);
 
-        ref(null);
-        expect(ref.current).toBe(null);
+      ref(null);
+      expect(ref.current).toBe(null);
     });
 
     it('sets the given component instance to the current property', () => {
       class A extends React.Component {
-        render() { return <div />; }
+        render() {
+          return <div />;
+        }
       }
       const ref = createRef<A>();
       const a = new A({});
