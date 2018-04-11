@@ -1,5 +1,5 @@
-import createRef from 'createref';
 import * as React from 'react';
+import createRef from 'createref';
 
 // An example component which has a ref for a rendered HTML DIV element
 

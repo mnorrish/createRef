@@ -1,5 +1,5 @@
-import createRef from 'createref';
 import * as React from 'react';
+import createRef from 'createref';
 import Example1 from './Example1';
 
 // An example component which has a ref for a rendered React component
