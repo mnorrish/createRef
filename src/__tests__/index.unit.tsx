@@ -27,7 +27,7 @@ describe('createRef', () => {
 
     it('sets the given component instance to the current property', () => {
       class A extends React.Component {
-        public render() {
+        render() {
           return <div />;
         }
       }
