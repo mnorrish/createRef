@@ -6,8 +6,8 @@ test('correctly assigns ref.current for rendered HTML element', () => {
   const ref = createRef<HTMLDivElement>();
 
   class A extends React.Component {
-    myRef = ref;
-    render() {
+    private myRef = ref;
+    public render() {
       return <div data-testid="x" ref={this.myRef} />;
     }
   }
@@ -19,7 +19,7 @@ test('correctly assigns ref.current for rendered HTML element', () => {
 
 test('correctly assigns ref.current for rendered component', () => {
   class A extends React.Component {
-    render() {
+    public render() {
       return <div />;
     }
   }
@@ -27,8 +27,8 @@ test('correctly assigns ref.current for rendered component', () => {
   const ref = createRef<A>();
 
   class B extends React.Component {
-    myRef = ref;
-    render() {
+    private myRef = ref;
+    public render() {
       return <A ref={this.myRef} />;
     }
   }

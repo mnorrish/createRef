@@ -10,15 +10,15 @@ import * as React from 'react';
 
 export type RefElement = React.Component | HTMLElement | null;
 
-export interface Ref<E extends RefElement> {
+export interface IRef<E extends RefElement> {
   (element: E): void;
-  current: E;
+  current?: E;
 }
 
 export default function createRef<E extends RefElement>() {
-  const ref = function(refElement: E | null = null) {
+  const ref: IRef<E | null> = (refElement: E | null = null) => {
     ref.current = refElement;
-  } as Ref<E | null>;
+  };
 
   ref.current = null;
 
