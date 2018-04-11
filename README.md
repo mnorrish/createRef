@@ -24,15 +24,18 @@ import createRef from 'createref';
 class MyComponent extends React.Component {
   contructor(props) {
     super(props);
+
+    // assign the ref to the component instance
     this.myRef = createRef();
   }
 
   doSomething() {
-    // the element can be accessed on the current property
+    // the element can be accessed on the current property of the ref
     console.log(this.myRef.current);
   }
 
   render() {
+    // pass the ref to the rendered element
     return <div ref={this.myRef} />;
   }
 }
