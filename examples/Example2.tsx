@@ -2,7 +2,7 @@ import * as React from 'react';
 import createRef from '..';
 import Example1 from './Example1';
 
-// An exmaple component which has a ref for a rendered React component
+// An example component which has a ref for a rendered React component
 
 export default class Example2 extends React.Component {
   exampleRef = createRef<Example1>();
